@@ -3,11 +3,11 @@
     display: inline-block;
     background-color: grey;
     height: 75px;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     padding: 0;
-    position: relative;
-    z-index: 0;
+    
+    
     overflow: hidden;
     
     
@@ -16,6 +16,7 @@
     float: left;
     color: white;
     padding-left: 30px;
+    
 }
 a{
     display: block;
@@ -43,17 +44,16 @@ li{
     display: block;
     padding: 0;
     margin: 0 auto;
-    height: 40vh;
-    width: 100vw;
+    height:500px;
+    width: 100%;
     background-color:black;
-    position: relative;
-    z-index: 100;
+    
 }
 .box h1{
     color: yellow;
     font-size:5em;
     text-align: center;
-    padding-top:15vh;
+    padding-top:10%;
     margin: 0%;
 }
 .gbox{
@@ -93,9 +93,16 @@ p{
     margin-top: 60px;
 }
 img{
-    display: inline;
+   
     float: left;
     width:300px;
     margin-top: 60px;
     margin-left:13%;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+    float:left;
+    margin-top:60px;
 }
