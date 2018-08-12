@@ -1,0 +1,101 @@
+
+.toolbar {
+    display: inline-block;
+    background-color: grey;
+    height: 75px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    
+    
+}
+.toolbar h1{
+    float: left;
+    color: white;
+    padding-left: 30px;
+}
+a{
+    display: block;
+    font-size: 24px;
+    text-decoration: none;
+    color:white;
+}
+ul{
+    margin-right: 30px;
+    padding:0;
+    float:right;
+    overflow:hidden;
+    list-style-type: none;
+    text-decoration: none;
+    
+
+}
+li{
+    padding: 10px;
+    margin-right: 10px;
+    float:left;
+    display:block;
+}
+.box{
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    height: 40vh;
+    width: 100vw;
+    background-color:black;
+    position: relative;
+    z-index: 100;
+}
+.box h1{
+    color: yellow;
+    font-size:5em;
+    text-align: center;
+    padding-top:15vh;
+    margin: 0%;
+}
+.gbox{
+    margin-left: 10%;
+    margin-right: auto;
+}
+.greenBoxs{
+    background-color: lightgreen;
+    width: 300px;
+    height: 300px;
+    margin-left: 180px;
+    margin-top: 60px;
+    float:left;
+    border-radius: 15px;
+    
+}
+.ojbox{
+    margin-left:13%;
+    margin-right:10%
+}
+.orangeBox{
+    background-color: orange;
+    height: 300px;
+    width: 575px;
+    margin-left:120px;
+    margin-top:60px;
+    float:left;
+}
+.txt{
+    display: inline;
+}
+
+p{
+    float: left;
+    width: 30vw;
+    margin-left: 20%;
+    margin-top: 60px;
+}
+img{
+    display: inline;
+    float: left;
+    width:300px;
+    margin-top: 60px;
+    margin-left:13%;
+}
